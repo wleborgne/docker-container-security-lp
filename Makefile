@@ -2,8 +2,8 @@ default: build
 
 build:
 	@echo "Building Hugo Builder container..."
-	@docker build -t lp/hugo-builder .
+	@docker build -t wleborgne/hugo-builder .
 	@echo "Hugo Builder container built!"
-	@docker images lp/hugo-builder
+	@docker images wleborgne/hugo-builder
 
 .PHONY: build
